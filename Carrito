@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidroponia</title>
+    <link rel="shortcut icon" href="./Imagenes/icons8-hydroponics-96.png" type="image/x-icon">
+</head>
+<body>
+        <header>
+                <h1>Hidroponia</h1>
+                <Nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Nosotros</li>
+                        <li>Blog</li>
+                        <li>Carrito</li>
+                    </ul>
+                </Nav>
+                                    
+        </header>
+        <main>
+            <article>
+                
+                <section>
+                 </section>
+
+               <section>
+                </section>
+
+            </article>
+            <aside>
+            </aside>
+        </main>
+        <footer>
+
+            <h4>Sitio desarrollado para Hidroponia</h4>
+        <nav>
+            <a  target="_blank"  href="https://facebook.com">
+                <img width="20px" src="./Imagenes/LogoFacebook.jpg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img width="20px" src="./Imagenes/LogoInstagram.jpg" alt="instagram">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=0543874564252">
+                <img width="20px" src="./Imagenes/LogoWhatsapp.jpg" alt="whatsapp">
+            </a>
+        </nav>
+        </footer>
+</body>
+</html>
