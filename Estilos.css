@@ -2,7 +2,7 @@ html{
     font-size:85%;
   }
 #Logo {
-            position: static; /*cambiar a absolute para ver la diferencia*/
+            position: static; 
             left: 50px;
             top: 50px;
             width: 100%;
@@ -13,16 +13,23 @@ html{
             top: 0;
             padding: 5px;
             background-color: #cae8ca;
-            border: 2px solid #4CAF50;
+            border: 2px inset #4CAF50;
   }
+  h1{
+    color: rgb(6, 83, 248);
+    font-size: 3rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
 .Encabezado nav a {
         background: rgb(130, 231, 252);
         color: rgb(6, 83, 248);
         padding: 2px;
         border: 1px solid rgb(6, 83, 248);
     }
-    /*
-    a:hover {
+    
+    /*a:hover {
         background: rgb(142, 254, 176);
         color: rgb(4, 172, 20);
         padding: 8px 14px;
@@ -32,9 +39,14 @@ html{
         transition-duration: 0.5s; 
         transition-timing-function: ease-in; 
     } */
-    
+h3{
+    color: rgb(6, 83, 248);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h4{color: #4CAF50;
         font-weight: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
+.Clima /*Falta aplicar Grid pra que se vea correctamente*/
   
