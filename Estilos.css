@@ -28,7 +28,7 @@ nav{
   background: #8fe1f0;
 }
 #Logo1{
-  margin-left: 1%;
+  margin-left: -2%;
 }
 .Encabezado{
             display:flex;
@@ -59,7 +59,7 @@ nav{
         border: 1px solid rgb(6, 83, 248);
     }
     
-    /*a:hover {
+    a:hover {
         background: rgb(142, 254, 176);
         color: rgb(4, 172, 20);
         padding: 8px 14px;
@@ -68,7 +68,8 @@ nav{
         transition-property: all; 
         transition-duration: 0.5s; 
         transition-timing-function: ease-in; 
-    } */
+    } 
+
 h3{
     color: rgb(6, 83, 248);
     font-weight: bold;
