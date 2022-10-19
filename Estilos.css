@@ -1,25 +1,28 @@
 html{
-    font-size:85%;
+    font-size:  95%;
     
   
   }
-
+:root{
+  font-size: 16px;
+}
 a{
-  font-size:25px;
+  font-size:18px;
 }
 
 .nav-enlace{
   display: inline-block;
   background: #0468ff93;
   color: rgb(255, 255, 255);
-  padding: 20px 30px;
+  padding: 15px 20px;
 
   text-decoration: none;
-  margin-inline: 100px;
+  margin-inline: 50px;
   border-radius: 300px;
 }
+
 nav{
-  background: #b1b3b1;
+  background: #c3c5c3;
   border-radius: 300px;
   text-align: center;
   margin-top: 20px;
@@ -27,27 +30,35 @@ nav{
 .nav-enlace:hover{
   background: #8fe1f0;
 }
+#Logo{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
 #Logo1{
-  margin-left: -2%;
+  display: flex;
+  justify-content:baseline ;
+  align-items: center;
 }
 .Encabezado{
-            display:flex;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            position:relative;
-            top: 0;
-            padding: 5px;
-            background-color: #cae8ca;
-            border: 5px #4CAF50;
-            border-radius: 300px;
+  display:flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position:relative;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 5px #4CAF50;
+  border-radius: 300px;
   }
 
   
   h1{
-    margin-left: 31%;
-    margin-right: 31%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align:center;
-    color: rgb(6, 83, 248);
-    font-size: 3rem;
+    color: #0468ff8f;
+    font-size: 2rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -69,20 +80,47 @@ nav{
         transition-duration: 0.5s; 
         transition-timing-function: ease-in; 
     } 
-
-h3{
-    color: rgb(6, 83, 248);
+h2{
+  color:#0468ff8f;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h4{color: #4CAF50;
-        font-weight: bold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;    
+h3{
+    color:#0468ff8f;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: #3b913e;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
-aside{
-  margin-left: 80%;
-  margin-bottom: 20%;
-  margin-top: -47%;
+.Subtitulo{
+  text-align: center;
 }
-.Clima /*Falta aplicar Grid pra que se vea correctamente*/
+
+.Texto1{
+  size: 70vw;  
+  border: 5px outset #4CAF50;
+  border-radius: 2%;
+  background-color: whitesmoke;    
+  text-align: center;
+}
+
+.Texto2{
+  border: 5px outset #4CAF50;
+  border-radius: 2%;
+  background-color: whitesmoke;    
+  text-align: center;
+}
+  
+.Clima{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*margin-left: 80%;
+  margin-bottom: 20%;
+  margin-top: 47%;*/
+} 
+/*Falta aplicar Grid pra que se vea correctamente*/
