@@ -1,9 +1,5 @@
-ESTILOS.CSS:
-
 html{
     font-size:  95%;
-    
-  
   }
 :root{
   font-size: 16px;
@@ -156,7 +152,17 @@ p::selection{
 .textofoot{
   padding-top: 15px;
 }
-
+.form-control{
+  border: 5px groove #4CAF50;
+  border-radius: 4%;
+  background-color: whitesmoke;    
+  text-align: justify ;
+  width: 400px;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+}
+/*
 #name{
   border: 5px groove #4CAF50;
   border-radius: 4%;
@@ -165,6 +171,7 @@ p::selection{
   width: 400px;
   height: auto;
   margin: 0%;
+  padding: 0%;
 }
 #floatingTextarea{
   border: 5px groove #4CAF50;
@@ -174,6 +181,7 @@ p::selection{
   width: 400px; 
   height: 200px;
   margin: 0%;
+  padding: 0%;
 }
 #email{
   border: 5px groove #4CAF50;
@@ -183,13 +191,12 @@ p::selection{
   width: 400px;
   height: auto;
   margin: 0%;
+  padding: 0%;
 }
 #contact{
   margin-top: 15px  ;
   padding: 15px;
-}
-.customerServices{
-  block-size: 60%;}
+}*/
 
   .grid2{
     display: grid;
